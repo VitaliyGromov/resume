@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Course</title>
+    <meta name="keywords" CONTENT="HTML/CSS, COURSES">
+    <meta name="description" content="Это базовый курс по html и css">
+    <link rel="stylesheet" href="../style/index.css">
+</head>
+<body>
+<div class="container">
+    <div class="about_me">
+        <img src="../images/i.jpg" width="300" alt="Тут фоточка со мной" class="image">
+        <div class="text">
+            <h1>Громов Виталий Васильевич</h1>
+            <p>Я учусь на втором курсе факультета художественного и музыкального образования в ЧГПУ</p>
+            <p>Я работаю в компании LeadReactor, занимаюсь там автоматизацией тестирования, также я играю на гитаре, пишу музыку и аранжировки, хочу стать разработчиком</p>
+        </div>
+    </div>
+    <hr/>
+    <div class="card social_media">
+        <h1>Мои социальные сети</h1>
+        <a href="https://vk.com/vitalygromov2015" target="_blank">VK</a>
+        |
+        <a href="https://t.me/vitaliygromov03" target="_blank">Telegram</a>
+        |
+        <a href="https://github.com/VitaliyGromov" target="_blank">GitHub</a>
+    </div>
+    <div class="card hobbies">
+        <h1>Мои хобби</h1>
+        <ol>
+            <li>Игра на гитаре</li>
+            <li>Игра на бас-гитаре</li>
+            <li>
+                Слушание музыки
+                <ul>
+                    <li>Метал</li>
+                    <li>блюз</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+    <div class="card work_experience">
+        <h1>Опыт работы</h1>
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Место работы</th>
+                <th>Должность</th>
+                <th>Заработная плата</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Ростелеком</td>
+                <td>Продажа тарифов</td>
+                <td>Сдельная, ничего не заработал</td>
+            </tr>
+            <tr>
+                <td>ДоДо пицца</td>
+                <td>Кандидат пицца-мейкер</td>
+                <td>80 рублей/час</td>
+            </tr>
+            <tr>
+                <td>LeadReactor</td>
+                <td>Автоматизация тестирования при помощи Cypress</td>
+                <td>30 000 рублей в месяц, 5000 премия</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <hr>
+    <div class="card contact_me">
+        <h1>Связаться со мной</h1>
+        <form action="" class="form">
+            <div class="inputs">
+                <div class="form-group">
+                    <label for="name">Имя:</label>
+                    <input type="text" id="name" placeholder="Введите ваше имя">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Введите ваш email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message">Ваше сообщение:</label>
+                <textarea id="message" placeholder="Ваше послание мне"></textarea>
+            </div>
+            <button type="submit" class="btn">Отправить</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
